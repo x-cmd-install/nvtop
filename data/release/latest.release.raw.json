@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2763256,
       "digest": "sha256:a0b06f86cda836fd59aa526baf1f263e1c2d74d58d52e8cdb1619d5dcfde2387",
-      "download_count": 6937,
+      "download_count": 6960,
       "created_at": "2026-02-08T17:53:27Z",
       "updated_at": "2026-02-08T17:53:29Z",
       "browser_download_url": "https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage"
