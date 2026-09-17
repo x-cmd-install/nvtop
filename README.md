@@ -14,14 +14,14 @@ x install nvtop
 
 ## Code insight
 
-Total: **19,405** lines of code across **92** files in the top 5 languages.
+Total: **19,802** lines of code across **93** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 13,451 | 1,619 | 2,493 | 42 |
-| CHeader | 4,135 | 2,443 | 871 | 30 |
-| CMake | 1,010 | 303 | 202 | 15 |
-| Cpp | 199 | 38 | 41 | 1 |
+| C | 13,786 | 1,643 | 2,555 | 43 |
+| CHeader | 4,166 | 2,452 | 877 | 30 |
+| CMake | 1,024 | 303 | 204 | 15 |
+| Cpp | 216 | 42 | 44 | 1 |
 | Autoconf | 189 | 7 | 27 | 4 |
 
 ## OpenSSF Scorecard
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.3.2` (2026-02-08)
-- **Last commit**: 2026-09-07
+- **Last commit**: 2026-09-16
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 11,003 · **Forks**: 432 · **Open issues**: 338 · **Contributors**: 78
+- **Stars**: 11,007 · **Forks**: 432 · **Open issues**: 338 · **Contributors**: 79
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 107 · **Open PRs**: 22 · **Closed issues**: 216 · **Open issues**: 122 · **Commits**: 681
+- **Releases**: 24 · **Merged PRs**: 109 · **Open PRs**: 20 · **Closed issues**: 217 · **Open issues**: 121 · **Commits**: 701
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 8 | 0 | 3 | 11 |
-| last60d | 2026-07-18 | 0 | 0 | 14 | 0 | 5 | 11 |
-| 90d | 2026-06-18 | 0 | 1 | 19 | 0 | 8 | 12 |
-| last180d | 2026-03-20 | 0 | 16 | 20 | 3 | 17 | 61 |
-| 360d | 2025-09-21 | 3 | 27 | 22 | 17 | 29 | 92 |
-| last720d | 2024-09-26 | 4 | 53 | 22 | 41 | 57 | 214 |
+| 30d | 2026-08-18 | 0 | 0 | 8 | 1 | 2 | 23 |
+| last60d | 2026-07-19 | 0 | 0 | 14 | 1 | 4 | 23 |
+| 90d | 2026-06-19 | 0 | 3 | 17 | 1 | 7 | 28 |
+| last180d | 2026-03-21 | 0 | 16 | 18 | 3 | 16 | 77 |
+| 360d | 2025-09-22 | 3 | 29 | 20 | 18 | 28 | 108 |
+| last720d | 2024-09-27 | 4 | 55 | 20 | 42 | 56 | 234 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:03:20Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:09:54Z._
