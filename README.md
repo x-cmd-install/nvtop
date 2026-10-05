@@ -14,11 +14,11 @@ x install nvtop
 
 ## Code insight
 
-Total: **21,422** lines of code across **93** files in the top 5 languages.
+Total: **21,430** lines of code across **93** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 15,272 | 1,868 | 2,726 | 43 |
+| C | 15,280 | 1,871 | 2,727 | 43 |
 | CHeader | 4,199 | 2,461 | 984 | 30 |
 | CMake | 1,043 | 303 | 204 | 15 |
 | Cpp | 235 | 42 | 48 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.3.2` (2026-02-08)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-10-04
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 11,044 · **Forks**: 440 · **Open issues**: 340 · **Contributors**: 90
+- **Stars**: 11,044 · **Forks**: 441 · **Open issues**: 341 · **Contributors**: 91
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 123 · **Open PRs**: 10 · **Closed issues**: 221 · **Open issues**: 119 · **Commits**: 768
+- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 11 · **Closed issues**: 221 · **Open issues**: 120 · **Commits**: 772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 3 | 4 | 1 | 3 | 49 |
-| last60d | 2026-08-05 | 0 | 9 | 6 | 2 | 4 | 58 |
-| 90d | 2026-07-06 | 0 | 14 | 7 | 3 | 5 | 66 |
-| last180d | 2026-04-07 | 0 | 27 | 8 | 5 | 14 | 115 |
-| 360d | 2025-10-09 | 3 | 43 | 10 | 21 | 25 | 151 |
-| last720d | 2024-10-14 | 4 | 69 | 10 | 45 | 52 | 301 |
+| 30d | 2026-09-05 | 0 | 3 | 5 | 1 | 3 | 37 |
+| last60d | 2026-08-06 | 0 | 10 | 7 | 2 | 5 | 60 |
+| 90d | 2026-07-07 | 0 | 14 | 8 | 3 | 6 | 66 |
+| last180d | 2026-04-08 | 0 | 28 | 9 | 5 | 15 | 116 |
+| 360d | 2025-10-10 | 3 | 43 | 11 | 21 | 26 | 151 |
+| last720d | 2024-10-15 | 4 | 70 | 11 | 44 | 53 | 305 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T06:36:54Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T06:31:05Z._
