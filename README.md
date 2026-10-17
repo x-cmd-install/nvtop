@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 18 · **Closed issues**: 221 · **Open issues**: 122 · **Commits**: 772
+- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 19 · **Closed issues**: 221 · **Open issues**: 122 · **Commits**: 772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 0 | 2 | 12 | 0 | 5 | 25 |
-| last60d | 2026-08-17 | 0 | 9 | 13 | 2 | 6 | 59 |
-| 90d | 2026-07-18 | 0 | 12 | 15 | 3 | 7 | 65 |
-| last180d | 2026-04-19 | 0 | 26 | 16 | 4 | 17 | 116 |
-| 360d | 2025-10-21 | 3 | 42 | 18 | 21 | 26 | 150 |
-| last720d | 2024-10-26 | 4 | 70 | 18 | 44 | 54 | 305 |
+| 30d | 2026-09-17 | 0 | 2 | 13 | 0 | 5 | 25 |
+| last60d | 2026-08-18 | 0 | 9 | 14 | 2 | 6 | 59 |
+| 90d | 2026-07-19 | 0 | 12 | 16 | 3 | 7 | 65 |
+| last180d | 2026-04-20 | 0 | 26 | 17 | 4 | 16 | 116 |
+| 360d | 2025-10-22 | 3 | 42 | 19 | 21 | 26 | 150 |
+| last720d | 2024-10-27 | 4 | 70 | 19 | 44 | 54 | 305 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T05:22:21Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T05:02:51Z._
