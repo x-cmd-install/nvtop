@@ -47,28 +47,46 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,096 · **Forks**: 452 · **Open issues**: 343 · **Contributors**: 91
+- **Stars**: 11,098 · **Forks**: 452 · **Open issues**: 343 · **Contributors**: 91
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 24 · **Closed issues**: 221 · **Open issues**: 122 · **Commits**: 772
+- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 26 · **Closed issues**: 221 · **Open issues**: 122 · **Commits**: 772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 18 | 0 | 4 | 10 |
-| last60d | 2026-08-23 | 0 | 6 | 19 | 2 | 6 | 51 |
-| 90d | 2026-07-24 | 0 | 11 | 21 | 2 | 7 | 63 |
-| last180d | 2026-04-25 | 0 | 25 | 22 | 4 | 15 | 115 |
-| 360d | 2025-10-27 | 3 | 42 | 24 | 19 | 26 | 150 |
-| last720d | 2024-11-01 | 4 | 69 | 24 | 43 | 54 | 305 |
+| 30d | 2026-09-23 | 0 | 0 | 20 | 0 | 4 | 10 |
+| last60d | 2026-08-24 | 0 | 5 | 21 | 1 | 6 | 51 |
+| 90d | 2026-07-25 | 0 | 10 | 23 | 2 | 7 | 63 |
+| last180d | 2026-04-26 | 0 | 25 | 24 | 4 | 15 | 115 |
+| 360d | 2025-10-28 | 3 | 42 | 26 | 19 | 26 | 150 |
+| last720d | 2024-11-02 | 4 | 69 | 26 | 43 | 54 | 303 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [nvtop-3.3.2-x86_64.AppImage](https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage) | 2.6 MiB | `other` |
+
+## Distribution status
+
+Reported by **92** distros on [repology.org](https://repology.org/project/nvtop). **35** are ✅ on the latest upstream release, **42** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.2.0` | ⚠️ outdated |
+| Debian 14 | `3.2.0` | ⚠️ outdated |
+| Debian 13 | `3.2.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.2.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
+| Arch | `3.3.2` | ✅ latest |
+| Homebrew | `3.3.2` | ✅ latest |
+| Fedora rawhide | `3.3.2` | ✅ latest |
+| Void | `3.3.2` | ✅ latest |
+| Alpine edge | `3.3.2` | ✅ latest |
+| openSUSE Tumbleweed | `3.3.2` | ✅ latest |
 
 ## Improve this data
 
@@ -79,4 +97,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:31:53Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:33:24Z._
