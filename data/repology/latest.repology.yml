@@ -1,24 +1,44 @@
-- repo: stalix_dev
-  srcname: bin/nvtop
-  binname: bin/nvtop
-  visiblename: bin/nvtop
-  version: 3.3.2
-  origversion: null
-  status: newest
+- repo: raspbian_stable
+  subrepo: main
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.2.0
+  origversion: 3.2.0-1
+  status: outdated
   maintainers:
-    - anton@samokhvalov.xyz
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
   categories:
-    - bin
-- repo: starkos
-  subrepo: extra
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.2.0
+  origversion: 3.2.0-2
+  status: outdated
+  maintainers:
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
+  categories:
+    - misc
+- repo: epel_8
   srcname: nvtop
   visiblename: nvtop
   version: 3.3.2
-  origversion: 3.3.2-1
+  origversion: 3.3.2-1.el8
   status: newest
-  summary: GPUs process monitoring for AMD, Intel and NVIDIA
-  maintainers:
-    - starkos@disroot.org
+  summary: GPU process monitoring for various devices
+  licenses:
+    - GPL-3.0-or-later and BSD-3-Clause
+  categories:
+    - Unspecified
 - repo: alpine_edge
   subrepo: testing
   srcname: nvtop
@@ -45,6 +65,21 @@
     - alpine@ptrcnull.me
   licenses:
     - GPL-3.0-or-later
+- repo: deepin_23
+  subrepo: main
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.0.2
+  origversion: 3.0.2-1
+  status: outdated
+  maintainers:
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
+  categories:
+    - contrib/utils
 - repo: alt_p11
   srcname: nvtop
   binnames:
@@ -231,21 +266,6 @@
   status: outdated
   maintainers:
     - maxime.schmitt91@gmail.com
-- repo: deepin_23
-  subrepo: main
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.0.2
-  origversion: 3.0.2-1
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - contrib/utils
 - repo: deepin_25
   subrepo: main
   srcname: nvtop
@@ -304,17 +324,6 @@
     - maxime.schmitt91@gmail.com
   categories:
     - misc
-- repo: epel_8
-  srcname: nvtop
-  visiblename: nvtop
-  version: 3.3.2
-  origversion: 3.3.2-1.el8
-  status: newest
-  summary: GPU process monitoring for various devices
-  licenses:
-    - GPL-3.0-or-later and BSD-3-Clause
-  categories:
-    - Unspecified
 - repo: epel_9
   srcname: nvtop
   binnames:
@@ -773,6 +782,21 @@
     - GPL-3.0-or-later and BSD-3-Clause
   categories:
     - System/X11
+- repo: raspbian_oldstable
+  subrepo: contrib
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.0.1
+  origversion: 3.0.1-1
+  status: outdated
+  maintainers:
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
+  categories:
+    - contrib/misc
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: nvtop
@@ -927,7 +951,7 @@
   categories:
     - contrib/misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: nvtop
   binnames:
     - nvtop
@@ -942,7 +966,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: nvtop
   binnames:
     - nvtop
@@ -965,6 +989,20 @@
   summary: Interactive text-mode GPU process viewer for AMD/Nvidia GPUs
   categories:
     - Monitoring
+- repo: pisi_main
+  subrepo: main
+  srcname: util/misc/nvtop
+  visiblename: nvtop
+  version: 3.3.2
+  origversion: null
+  status: newest
+  summary: GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
+  maintainers:
+    - rimru01@proton.me
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - app:console
 - repo: pld
   srcname: nvtop
   visiblename: nvtop
@@ -994,51 +1032,6 @@
     - maxime.schmitt91@gmail.com
   categories:
     - utils
-- repo: raspbian_oldstable
-  subrepo: contrib
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - contrib/misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.2.0
-  origversion: 3.2.0-1
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.2.0
-  origversion: 3.2.0-2
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: nvtop
@@ -1134,6 +1127,27 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: stalix_dev
+  srcname: bin/nvtop
+  binname: bin/nvtop
+  visiblename: bin/nvtop
+  version: 3.3.2
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: extra
+  srcname: nvtop
+  visiblename: nvtop
+  version: 3.3.2
+  origversion: 3.3.2-1
+  status: newest
+  summary: GPUs process monitoring for AMD, Intel and NVIDIA
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: nvtop
   visiblename: nvtop
