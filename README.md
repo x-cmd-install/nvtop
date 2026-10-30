@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,108 · **Forks**: 453 · **Open issues**: 343 · **Contributors**: 91
+- **Stars**: 11,108 · **Forks**: 453 · **Open issues**: 344 · **Contributors**: 91
 
 ## Totals (cumulative)
 
-- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 28 · **Closed issues**: 221 · **Open issues**: 122 · **Commits**: 772
+- **Releases**: 24 · **Merged PRs**: 124 · **Open PRs**: 28 · **Closed issues**: 221 · **Open issues**: 123 · **Commits**: 772
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 0 | 20 | 0 | 4 | 1 |
-| last60d | 2026-08-30 | 0 | 4 | 23 | 1 | 6 | 51 |
-| 90d | 2026-07-31 | 0 | 10 | 25 | 2 | 7 | 60 |
-| last180d | 2026-05-02 | 0 | 23 | 26 | 4 | 15 | 83 |
-| 360d | 2025-11-03 | 3 | 42 | 28 | 19 | 25 | 150 |
-| last720d | 2024-11-08 | 4 | 69 | 28 | 42 | 54 | 301 |
+| 30d | 2026-09-30 | 0 | 0 | 19 | 0 | 5 | 1 |
+| last60d | 2026-08-31 | 0 | 4 | 23 | 1 | 7 | 51 |
+| 90d | 2026-08-01 | 0 | 10 | 25 | 2 | 8 | 60 |
+| last180d | 2026-05-03 | 0 | 22 | 26 | 4 | 16 | 83 |
+| 360d | 2025-11-04 | 3 | 42 | 28 | 19 | 26 | 150 |
+| last720d | 2024-11-09 | 4 | 68 | 28 | 42 | 55 | 301 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:49:21Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:38:52Z._
