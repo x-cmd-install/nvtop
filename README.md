@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,125 · **Forks**: 459 · **Open issues**: 344 · **Contributors**: 91
+- **Stars**: 11,127 · **Forks**: 459 · **Open issues**: 344 · **Contributors**: 91
 
 ## Totals (cumulative)
 
@@ -57,18 +57,36 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 14 | 0 | 3 | 0 |
-| last60d | 2026-09-07 | 0 | 3 | 21 | 1 | 6 | 37 |
-| 90d | 2026-08-08 | 0 | 10 | 23 | 2 | 8 | 60 |
-| last180d | 2026-05-10 | 0 | 21 | 25 | 4 | 16 | 76 |
-| 360d | 2025-11-11 | 3 | 42 | 27 | 19 | 26 | 150 |
-| last720d | 2024-11-16 | 4 | 68 | 27 | 40 | 55 | 299 |
+| 30d | 2026-10-08 | 0 | 0 | 13 | 0 | 3 | 0 |
+| last60d | 2026-09-08 | 0 | 3 | 21 | 1 | 6 | 37 |
+| 90d | 2026-08-09 | 0 | 10 | 23 | 2 | 8 | 60 |
+| last180d | 2026-05-11 | 0 | 21 | 25 | 4 | 16 | 76 |
+| 360d | 2025-11-12 | 3 | 42 | 27 | 19 | 26 | 150 |
+| last720d | 2024-11-17 | 4 | 68 | 27 | 40 | 55 | 299 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [nvtop-3.3.2-x86_64.AppImage](https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage) | 2.6 MiB | `other` |
+
+## Distribution status
+
+Reported by **95** distros on [repology.org](https://repology.org/project/nvtop). **37** are ✅ on the latest upstream release, **43** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.2.0` | ⚠️ outdated |
+| Debian 14 | `3.2.0` | ⚠️ outdated |
+| Debian 13 | `3.2.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.2.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
+| Arch | `3.3.2` | ✅ latest |
+| Homebrew | `3.3.2` | ✅ latest |
+| Fedora rawhide | `3.3.2` | ✅ latest |
+| Void | `3.3.2` | ✅ latest |
+| Alpine edge | `3.3.2` | ✅ latest |
+| openSUSE Tumbleweed | `3.3.2` | ✅ latest |
 
 ## Improve this data
 
@@ -79,4 +97,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:28:53Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:47:17Z._
