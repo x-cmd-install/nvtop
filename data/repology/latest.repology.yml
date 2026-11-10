@@ -1,13 +1,82 @@
-- repo: slackbuilds
-  srcname: system/nvtop
-  visiblename: system/nvtop
-  version: 3.3.2
-  origversion: null
+- repo: raspbian_oldstable
+  subrepo: contrib
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.0.1
+  origversion: 3.0.1-1
   status: outdated
   maintainers:
-    - metcalf.nerd+sbo@gmail.com
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
   categories:
-    - system
+    - contrib/misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.2.0
+  origversion: 3.2.0-1
+  status: outdated
+  maintainers:
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.2.0
+  origversion: 3.2.0-2
+  status: outdated
+  maintainers:
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
+  categories:
+    - misc
+- repo: pld
+  srcname: nvtop
+  visiblename: nvtop
+  version: 3.3.2
+  origversion: 3.3.2-1
+  status: outdated
+- repo: altsisyphus
+  srcname: nvtop
+  binnames:
+    - nvtop
+    - nvtop-debuginfo
+  visiblename: nvtop
+  version: 3.3.2
+  origversion: 3.3.2-alt3
+  status: outdated
+  summary: (h)top like task monitor for AMD, Intel and Nvidia GPUs
+  maintainers:
+    - lakostis@altlinux.org
+  licenses:
+    - GPLv3
+  categories:
+    - Monitoring
+- repo: aosc
+  srcname: app-admin/nvtop
+  binname: nvtop
+  visiblename: nvtop
+  version: 3.4.0
+  origversion: null
+  status: newest
+  summary: Utilization monitor for GPUs
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - admin
 - repo: alpine_edge
   subrepo: testing
   srcname: nvtop
@@ -50,34 +119,6 @@
     - GPLv3
   categories:
     - Monitoring
-- repo: altsisyphus
-  srcname: nvtop
-  binnames:
-    - nvtop
-    - nvtop-debuginfo
-  visiblename: nvtop
-  version: 3.3.2
-  origversion: 3.3.2-alt3
-  status: outdated
-  summary: (h)top like task monitor for AMD, Intel and Nvidia GPUs
-  maintainers:
-    - lakostis@altlinux.org
-  licenses:
-    - GPLv3
-  categories:
-    - Monitoring
-- repo: aosc
-  srcname: app-admin/nvtop
-  binname: nvtop
-  visiblename: nvtop
-  version: 3.3.2
-  origversion: null
-  status: outdated
-  summary: Utilization monitor for GPUs
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - admin
 - repo: arch
   subrepo: extra
   srcname: nvtop
@@ -194,6 +235,14 @@
     - maxime.schmitt91@gmail.com
   categories:
     - misc
+- repo: ptxdist
+  srcname: nvtop
+  visiblename: nvtop
+  version: 3.2.0
+  origversion: null
+  status: outdated
+  licenses:
+    - GPL-3.0-or-later
 - repo: debian_unstable
   subrepo: sid/main
   srcname: nvtop
@@ -567,6 +616,21 @@
     - GPL-3+
   categories:
     - sys-process
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: nvtop
+  binnames:
+    - nvtop
+  visiblename: nvtop
+  version: 3.2.0
+  origversion: 3.2.0-1
+  status: outdated
+  maintainers:
+    - pkg-nvidia-devel@lists.alioth.debian.org
+    - anbe@debian.org
+    - maxime.schmitt91@gmail.com
+  categories:
+    - utils
 - repo: gentoo
   srcname: sys-process/nvtop
   visiblename: sys-process/nvtop
@@ -722,9 +786,9 @@
   srcname: sysutils/nvtop
   binname: nvtop
   visiblename: nvtop
-  version: 3.3.2
+  version: 3.4.0
   origversion: null
-  status: outdated
+  status: newest
   summary: GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
   maintainers:
     - herbygillot@github
@@ -956,11 +1020,11 @@
     - Monitoring
 - repo: pisi_main
   subrepo: main
-  srcname: util/misc/nvtop
+  srcname: util/admin/nvtop
   visiblename: nvtop
-  version: 3.3.2
+  version: 3.4.0
   origversion: null
-  status: outdated
+  status: newest
   summary: GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
   maintainers:
     - rimru01@proton.me
@@ -968,80 +1032,6 @@
     - GPL-3.0-or-later
   categories:
     - app:console
-- repo: pld
-  srcname: nvtop
-  visiblename: nvtop
-  version: 3.3.2
-  origversion: 3.3.2-1
-  status: outdated
-- repo: ptxdist
-  srcname: nvtop
-  visiblename: nvtop
-  version: 3.2.0
-  origversion: null
-  status: outdated
-  licenses:
-    - GPL-3.0-or-later
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.2.0
-  origversion: 3.2.0-1
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: contrib
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.0.1
-  origversion: 3.0.1-1
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - contrib/misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.2.0
-  origversion: 3.2.0-1
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: nvtop
-  binnames:
-    - nvtop
-  visiblename: nvtop
-  version: 3.2.0
-  origversion: 3.2.0-2
-  status: outdated
-  maintainers:
-    - pkg-nvidia-devel@lists.alioth.debian.org
-    - anbe@debian.org
-    - maxime.schmitt91@gmail.com
-  categories:
-    - misc
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: nvtop
@@ -1078,6 +1068,16 @@
     - GPL-3.0-or-later and BSD-3-Clause
   categories:
     - System/X11
+- repo: slackbuilds
+  srcname: system/nvtop
+  visiblename: system/nvtop
+  version: 3.3.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - metcalf.nerd+sbo@gmail.com
+  categories:
+    - system
 - repo: solus
   srcname: nvtop
   binname: nvtop

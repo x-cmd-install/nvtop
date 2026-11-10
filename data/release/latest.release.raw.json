@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1358344,
       "digest": "sha256:b24de1eb0f18c53461613a00c68561bec810de31604f56895cf02fa335a0f2df",
-      "download_count": 8,
+      "download_count": 14,
       "created_at": "2026-11-08T16:22:06Z",
       "updated_at": "2026-11-08T16:22:07Z",
       "browser_download_url": "https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-aarch64.AppImage"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1374712,
       "digest": "sha256:61a0c11d9b0f7e78193acc9991d00b0dcc5ae1facd58a984414ae0cfbcd5ae6d",
-      "download_count": 33,
+      "download_count": 86,
       "created_at": "2026-11-08T16:22:06Z",
       "updated_at": "2026-11-08T16:22:07Z",
       "browser_download_url": "https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-x86_64.AppImage"
@@ -114,8 +114,8 @@
   "body": "# New in this release\n\n## Target support\n\n- Radeon GPUs - @gusteivos\n- Tenstorrent accelerators - @OctopusET\n- Iluvatar CoreX GPUs (ixML) - @lxzlxzliuxuzhao\n- Qualcomm NPUs - @Srinivas-Kandagatla\n  - HVX/HMX utilization plots\n- Ascend NPUs - @KaranocaVe, @yulink1981\n  - DCMI telemetry backend\n  - DDR memory support and 310P3 device enumeration\n- MSM: more GPU IDs, current clock and temperature reporting - @robclark, @fromdisposition\n\n## Improvements\n\n- NVIDIA:\n  - NVLink support - @danbedford\n  - ECC support for professional GPUs - @LH-and-FPGA\n  - Extra clock domains not reported by NVML (XBAR, SYS, NVD) - @Panchovix\n  - Real memory usage on unified-memory platforms - @sudoingX, @johnnynunez\n- Interface:\n  - PCIe RX/TX load in the utilization charts - @Basavaraja-MS\n  - Dynamic memory units with `-u`/`--dynamic-memory-units` - @unstable-code\n  - Configurable plot line colors - @graysky2\n  - Number keys to select a signal after F9 - @abpaudel\n- Snapshot:\n  - GPU architecture in JSON output - @Mahsuba\n\n# Fixes\n\n- NVIDIA:\n  - Correct MIG mode handling for process utilization - @Henry-ZHR\n  - UMA memory fallback and unified-memory accounting - @redyuan43, @sudoingX, @johnnynunez\n  - Do not report a fake PCIe link on unified-memory SoC GPUs - @Code4me2\n  - Show 0% instead of N/A when there are no new utilization samples - @wuzhonglijz\n  - Fix extra-clock flicker and use-after-free on re-monitored GPUs - @intel00000\n  - Fix startup segfault and NVIDIA detection under WSL2 - @zzccppp\n- AMDGPU:\n  - Count GTT in per-process memory on integrated GPUs - @rborkow\n  - Fall back to hwmon junction temperature on SMU13.0.6 - @jason34105533\n  - Fix divide-by-zero when the power limit is missing - @JoseOliveira-beep\n- Intel:\n  - Fix ~20 MB/hour heap growth from per-refresh udev devices - @bqv\n  - Read the xe GT frequency from sysfs instead of a perf event - @stolk\n  - Fixes for Intel Xe cards and memory frequency reporting - @Steve-Tech\n- fdinfo:\n  - Apply the graphical default per process, not per fd - @stolk\n  - Cap the engine busy percentage instead of dropping samples, avoiding a division by zero - @ViderStar\n- Interface and snapshot:\n  - Make `--no-processes` work with `--snapshot` and `--loop` - @yinghao-w\n  - Fix null cmdline in snapshot output - @gitfool\n  - Fix window cleanup leaks - @danbedford\n  - Respect the hide-processes option from the config file - @yinghao-w\n  - Increase the elapsed-time buffer on the timeline - @aadamowski\n  - Clamp GPU and memory clock percentages to 100 - @bqv\n  - Fix the shader core count field - @Panchovix\n  - Guard clock-rate plots against a zero maximum, drop stale processes of unmonitored GPUs\n- Other:\n  - MSM temperature and current clock reporting - @fromdisposition\n  - Various Ascend, Qualcomm and V3D fixes\n\n# Misc\n\n- Dockerfile fix for Docker builds on Windows 11 - @piro4you\n- Documentation for invalid TERM/ncurses errors - @raravind007\n- Snap: terminfo packages for more terminals - @simonjgreen\n- Snap: migrate to the core26 base - @Syllo\n- AppImage: rebuild on AlmaLinux 8 without bundling glibc, add aarch64, and automate release builds - @Syllo\n  - Requires glibc 2.28+ (Ubuntu 20.04+, Debian 10+, RHEL 8+)\n  - RHEL 7 is no longer supported (EOL)\n\nA huge thanks to all the contributors and testers :tada:\n\n**Full Changelog**: https://github.com/Syllo/nvtop/compare/3.3.2...3.4.0\n",
   "reactions": {
     "url": "https://api.github.com/repos/Syllo/nvtop/releases/438363505/reactions",
-    "total_count": 4,
-    "+1": 4,
+    "total_count": 7,
+    "+1": 7,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
