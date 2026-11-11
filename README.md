@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.4.0` (2026-11-08)
-- **Last commit**: 2026-11-09
+- **Last commit**: 2026-11-10
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 11,134 · **Forks**: 460 · **Open issues**: 344 · **Contributors**: 99
+- **Stars**: 11,141 · **Forks**: 459 · **Open issues**: 345 · **Contributors**: 99
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 136 · **Open PRs**: 16 · **Closed issues**: 227 · **Open issues**: 117 · **Commits**: 818
+- **Releases**: 25 · **Merged PRs**: 137 · **Open PRs**: 16 · **Closed issues**: 227 · **Open issues**: 118 · **Commits**: 820
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 9 | 4 | 3 | 0 | 26 |
-| last60d | 2026-09-11 | 1 | 15 | 10 | 6 | 1 | 67 |
-| 90d | 2026-08-12 | 1 | 22 | 12 | 7 | 2 | 89 |
-| last180d | 2026-05-14 | 1 | 33 | 14 | 9 | 11 | 105 |
-| 360d | 2025-11-15 | 4 | 54 | 16 | 25 | 20 | 179 |
-| last720d | 2024-11-20 | 5 | 78 | 16 | 46 | 49 | 342 |
+| 30d | 2026-10-12 | 1 | 10 | 4 | 3 | 1 | 27 |
+| last60d | 2026-09-12 | 1 | 15 | 10 | 6 | 2 | 68 |
+| 90d | 2026-08-13 | 1 | 23 | 12 | 7 | 3 | 90 |
+| last180d | 2026-05-15 | 1 | 33 | 14 | 9 | 11 | 106 |
+| 360d | 2025-11-16 | 4 | 55 | 16 | 25 | 21 | 180 |
+| last720d | 2024-11-21 | 5 | 79 | 16 | 46 | 50 | 341 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **95** distros on [repology.org](https://repology.org/project/nvtop). **11** are ✅ on the latest upstream release, **69** are ⚠️ on an older version.
+Reported by **95** distros on [repology.org](https://repology.org/project/nvtop). **15** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:11:12Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:07:15Z._
