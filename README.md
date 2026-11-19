@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,154 · **Forks**: 462 · **Open issues**: 346 · **Contributors**: 102
+- **Stars**: 11,162 · **Forks**: 462 · **Open issues**: 346 · **Contributors**: 102
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 148 · **Open PRs**: 9 · **Closed issues**: 260 · **Open issues**: 86 · **Commits**: 910
+- **Releases**: 25 · **Merged PRs**: 148 · **Open PRs**: 10 · **Closed issues**: 260 · **Open issues**: 86 · **Commits**: 910
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 1 | 15 | 4 | 3 | 0 | 78 |
-| last60d | 2026-09-18 | 1 | 25 | 6 | 8 | 0 | 101 |
-| 90d | 2026-08-19 | 1 | 32 | 7 | 11 | 0 | 145 |
-| last180d | 2026-05-21 | 1 | 44 | 9 | 15 | 5 | 177 |
-| 360d | 2025-11-22 | 4 | 65 | 9 | 33 | 14 | 249 |
-| last720d | 2024-11-27 | 5 | 90 | 9 | 62 | 33 | 431 |
+| 30d | 2026-10-20 | 1 | 15 | 5 | 3 | 0 | 78 |
+| last60d | 2026-09-20 | 1 | 23 | 7 | 7 | 0 | 101 |
+| 90d | 2026-08-21 | 1 | 32 | 8 | 11 | 0 | 145 |
+| last180d | 2026-05-23 | 1 | 44 | 10 | 15 | 4 | 177 |
+| 360d | 2025-11-24 | 4 | 65 | 10 | 33 | 13 | 249 |
+| last720d | 2024-11-29 | 5 | 90 | 10 | 61 | 32 | 431 |
 
 ## Release assets
 
@@ -70,6 +70,24 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [nvtop-3.4.0-aarch64.AppImage](https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-aarch64.AppImage) | 1.3 MiB | `other` |
 | [nvtop-3.4.0-x86_64.AppImage](https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-x86_64.AppImage) | 1.3 MiB | `other` |
+
+## Distribution status
+
+Reported by **95** distros on [repology.org](https://repology.org/project/nvtop). **18** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.2.0` | ⚠️ outdated |
+| Debian 14 | `3.2.0` | ⚠️ outdated |
+| Debian 13 | `3.2.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.2.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
+| Arch | `3.4.0` | ✅ latest |
+| Homebrew | `3.4.0` | ✅ latest |
+| Fedora rawhide | `3.3.2` | ⚠️ outdated |
+| Void | `3.3.2` | ⚠️ outdated |
+| Alpine edge | `3.3.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.3.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -80,4 +98,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T11:03:48Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:16:39Z._
