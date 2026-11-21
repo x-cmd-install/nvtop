@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,168 · **Forks**: 463 · **Open issues**: 346 · **Contributors**: 102
+- **Stars**: 11,169 · **Forks**: 464 · **Open issues**: 346 · **Contributors**: 101
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 148 · **Open PRs**: 11 · **Closed issues**: 260 · **Open issues**: 86 · **Commits**: 910
+- **Releases**: 25 · **Merged PRs**: 148 · **Open PRs**: 12 · **Closed issues**: 260 · **Open issues**: 86 · **Commits**: 910
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 14 | 6 | 3 | 0 | 78 |
-| last60d | 2026-09-21 | 1 | 23 | 8 | 7 | 0 | 101 |
-| 90d | 2026-08-22 | 1 | 30 | 9 | 11 | 0 | 145 |
-| last180d | 2026-05-24 | 1 | 44 | 11 | 15 | 4 | 177 |
-| 360d | 2025-11-25 | 4 | 64 | 11 | 32 | 13 | 249 |
-| last720d | 2024-11-30 | 5 | 89 | 11 | 60 | 32 | 431 |
+| 30d | 2026-10-22 | 1 | 14 | 6 | 3 | 0 | 78 |
+| last60d | 2026-09-22 | 1 | 23 | 9 | 7 | 0 | 101 |
+| 90d | 2026-08-23 | 1 | 29 | 10 | 11 | 0 | 145 |
+| last180d | 2026-05-25 | 1 | 44 | 12 | 15 | 4 | 177 |
+| 360d | 2025-11-26 | 4 | 64 | 12 | 32 | 13 | 249 |
+| last720d | 2024-12-01 | 5 | 89 | 12 | 60 | 32 | 430 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **95** distros on [repology.org](https://repology.org/project/nvtop). **18** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
+Reported by **94** distros on [repology.org](https://repology.org/project/nvtop). **18** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:34:31Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:44:14Z._
