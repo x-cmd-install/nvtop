@@ -14,13 +14,13 @@ x install nvtop
 
 ## Code insight
 
-Total: **27,138** lines of code across **106** files in the top 5 languages.
+Total: **28,640** lines of code across **108** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 19,572 | 2,313 | 3,221 | 53 |
-| CHeader | 4,331 | 2,609 | 1,030 | 35 |
-| CMake | 1,144 | 306 | 213 | 15 |
+| C | 21,008 | 2,564 | 3,310 | 55 |
+| CHeader | 4,361 | 2,642 | 1,033 | 35 |
+| CMake | 1,176 | 306 | 215 | 15 |
 | ObjectiveC | 693 | 137 | 124 | 2 |
 | ObjectiveCpp | 612 | 38 | 123 | 1 |
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `3.4.0` (2026-11-08)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-22
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 11,169 · **Forks**: 464 · **Open issues**: 346 · **Contributors**: 101
+- **Stars**: 11,170 · **Forks**: 464 · **Open issues**: 346 · **Contributors**: 101
 
 ## Totals (cumulative)
 
-- **Releases**: 25 · **Merged PRs**: 148 · **Open PRs**: 12 · **Closed issues**: 260 · **Open issues**: 86 · **Commits**: 910
+- **Releases**: 25 · **Merged PRs**: 149 · **Open PRs**: 11 · **Closed issues**: 261 · **Open issues**: 85 · **Commits**: 944
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 1 | 14 | 6 | 3 | 0 | 78 |
-| last60d | 2026-09-22 | 1 | 23 | 9 | 7 | 0 | 101 |
-| 90d | 2026-08-23 | 1 | 29 | 10 | 11 | 0 | 145 |
-| last180d | 2026-05-25 | 1 | 44 | 12 | 15 | 4 | 177 |
-| 360d | 2025-11-26 | 4 | 64 | 12 | 32 | 13 | 249 |
-| last720d | 2024-12-01 | 5 | 89 | 12 | 60 | 32 | 430 |
+| 30d | 2026-10-23 | 1 | 14 | 5 | 3 | 0 | 107 |
+| last60d | 2026-09-23 | 1 | 24 | 8 | 7 | 0 | 120 |
+| 90d | 2026-08-24 | 1 | 29 | 9 | 10 | 0 | 173 |
+| last180d | 2026-05-26 | 1 | 45 | 11 | 15 | 4 | 208 |
+| 360d | 2025-11-27 | 4 | 65 | 11 | 32 | 12 | 279 |
+| last720d | 2024-12-02 | 5 | 90 | 11 | 61 | 31 | 464 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **94** distros on [repology.org](https://repology.org/project/nvtop). **18** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+Reported by **94** distros on [repology.org](https://repology.org/project/nvtop). **19** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -84,7 +84,7 @@ Reported by **94** distros on [repology.org](https://repology.org/project/nvtop)
 | Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
 | Arch | `3.4.0` | ✅ latest |
 | Homebrew | `3.4.0` | ✅ latest |
-| Fedora rawhide | `3.3.2` | ⚠️ outdated |
+| Fedora rawhide | `3.4.0` | ✅ latest |
 | Void | `3.3.2` | ⚠️ outdated |
 | Alpine edge | `3.3.2` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.3.2` | ⚠️ outdated |
@@ -98,4 +98,4 @@ Install metadata for nvtop lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:44:14Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T08:38:35Z._
