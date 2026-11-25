@@ -47,7 +47,7 @@ x install nvtop
 
 ## 流行度
 
-- **Star**: 11,174 · **Fork**: 466 · **开放 issue**: 346 · **贡献者**: 104
+- **Star**: 11,175 · **Fork**: 466 · **开放 issue**: 346 · **贡献者**: 104
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install nvtop
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 16 | 4 | 3 | 0 | 126 |
-| last60d | 2026-09-25 | 1 | 28 | 7 | 7 | 0 | 139 |
-| 90d | 2026-08-26 | 1 | 32 | 8 | 10 | 0 | 192 |
-| last180d | 2026-05-28 | 1 | 49 | 10 | 15 | 3 | 227 |
-| 360d | 2025-11-29 | 4 | 69 | 10 | 33 | 11 | 298 |
-| last720d | 2024-12-04 | 5 | 94 | 10 | 62 | 30 | 488 |
+| 30d | 2026-10-26 | 1 | 16 | 4 | 3 | 0 | 126 |
+| last60d | 2026-09-26 | 1 | 28 | 6 | 7 | 0 | 139 |
+| 90d | 2026-08-27 | 1 | 32 | 8 | 10 | 0 | 192 |
+| last180d | 2026-05-29 | 1 | 49 | 10 | 15 | 2 | 227 |
+| 360d | 2025-11-30 | 4 | 69 | 10 | 33 | 11 | 298 |
+| last720d | 2024-12-05 | 5 | 94 | 10 | 62 | 30 | 488 |
 
 ## Release 资产
 
@@ -70,24 +70,6 @@ x install nvtop
 |------|-----:|----------|
 | [nvtop-3.4.0-aarch64.AppImage](https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-aarch64.AppImage) | 1.3 MiB | `other` |
 | [nvtop-3.4.0-x86_64.AppImage](https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-x86_64.AppImage) | 1.3 MiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/nvtop) 上共有 **96** 个发行版报告此项目。**24** 个 ✅ 已是最新上游版本，**55** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.2.0` | ⚠️ outdated |
-| Debian 14 | `3.2.0` | ⚠️ outdated |
-| Debian 13 | `3.2.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.2.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.0.2` | ⚠️ outdated |
-| Arch | `3.4.0` | ✅ latest |
-| Homebrew | `3.4.0` | ✅ latest |
-| Fedora rawhide | `3.4.0` | ✅ latest |
-| Void | `3.3.2` | ⚠️ outdated |
-| Alpine edge | `3.3.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.4.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -98,4 +80,4 @@ nvtop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:46:17Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:29:26Z._
